@@ -2,41 +2,29 @@ import { nanoid } from 'nanoid';
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
   paragraphOne: 'I spent 21 years in the US Navy submarine force. It was an exciting and rewarding career. I learned about electronics, leadership, and working with people with diverse backgrounds. During my time in the Navy, I also fell in love with computers and knew that that\'s what I wanted to do when my time in the service was up.',
   paragraphTwo: 'When I officially retired from the Navy, I decided I wanted to build software. I felt that software engineering was a great combination of two of my passions: computers and building things. I recently completed the Hack Reactor Software Engineering Immersive where I learned Javascript and full stack web development.',
-  paragraphThree: 'When I\'m not building software, I enjoy ripping down hills on my mountain bike, or exporing the area of my road bike.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: 'When I\'m not building software, I enjoy ripping down hills on my mountain bike, or exporing on my road bike.',
+  resume: 'https://docs.google.com/document/d/1t35uBimWc2O46VmF0rLzZ2fUAj_pg25lT_VGgjxoN8o/edit?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'goFishMovies.png',
+    title: 'Go Fish!',
+    info: 'Your favorite app for when you and your friends can\'t decide which movie to watch.',
+    url: 'https://www.gofishmovies.com',
+    repo: 'https://github.com/Team-Go-Fish/Go-Fish',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'ratingsReviews.png',
+    title: 'Project Catwalk',
+    info: 'Project Catwalk is a front-end design for a ficticious e-commerce website. Users can browse through stylish clothing options and add them to their cart. They can also read through questions and answers submitted by previous shoppers. Users can even view product ratings and reviews and submit their own. My specific area of responsibility on this project was the ratings and reviews section at the bottom of the page.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/mhoffman39/project-catwalk-v3',
   },
 ];
 
