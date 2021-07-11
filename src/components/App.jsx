@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero';
-import About from './About/About';
-import Projects from './Projects/Projects';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -25,6 +26,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </PortfolioProvider>
   );
 };
