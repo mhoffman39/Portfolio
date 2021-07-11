@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from './Title';
+import Title from '../Title';
 import ProjectImg from '../Image/ProjectImage';
 
 const Projects = () => {
