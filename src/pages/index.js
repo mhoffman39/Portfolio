@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { Helmet } from 'react-helmet';
 import App from '../components/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,7 @@ const IndexPage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{`Mason Hoffman - Portfolio`}</title>
+        <title>Mason Hoffman - Software Engineer</title>
         <html lang={'en'} />
         <meta name="description" content={'Mason Hoffman - Portfolio'} />
       </Helmet>
