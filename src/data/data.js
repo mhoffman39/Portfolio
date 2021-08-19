@@ -15,8 +15,8 @@ export const projectsData = [
     img: 'goFishMovies.png',
     title: 'Go Fish!',
     info: 'Your favorite app for when you and your friends can\'t decide which movie to watch. This social media application lets users search for their friends and their favorite movies. Then, when you can\'t agree on a movie just hit the "Go Fish" button. The application will return a random movie that you and your friend have both selected as a favorite. ',
-    url: 'https://www.gofishmovies.com',
-    // url: '',
+    // url: 'https://www.gofishmovies.com',
+    url: '',
     repo: 'https://github.com/Team-Go-Fish/Go-Fish',
   },
   {
