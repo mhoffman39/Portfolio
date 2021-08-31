@@ -1,14 +1,11 @@
-My personal portfolio website. Navigate to the project's root directory
+# My personal portfolio website!
 
+## To test it out
+Navigate to the project's root directory
 
-
-    ```shell
     npm run develop
-    ```
 
-
-
-    Your site is now running at http://localhost:8000!
+The site is now running at http://localhost:8000!
 
 
 
