@@ -31,7 +31,7 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
+            <span className="cta-btn cta-btn--hero" id="learn">
               <Link to="about" smooth duration={1000}>
                 Learn more
               </Link>

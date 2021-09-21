@@ -12,6 +12,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'zwift.png',
+    title: 'Zwift Analyzer',
+    info: 'Zwift is a cross between a video game and the hardest cycling workout of your life. Using a smart trainer, the power you put into the pedals is transferred to speed, allowing your avatar in the video game to ride faster. The more power you put into the pedals, the faster your avatar moves in the game. This allows you to race in real time against thousands of other racers around the world, ride in some of cycling\'s most legendary locations, or ride through imaginary places like the inside of a volcano. This application allows a user to track their statistics over time, something that is not supported in-game.',
+    // url: 'https://www.gofishmovies.com',
+    url: '',
+    repo: 'https://github.com/Team-Go-Fish/https://github.com/mhoffman39/Zwift-Analyzer-Fish',
+  },
+  {
+    id: nanoid(),
     img: 'goFishMovies.png',
     title: 'Go Fish!',
     info: 'Your favorite app for when you and your friends can\'t decide which movie to watch. This social media application lets users search for their friends and their favorite movies. Then, when you can\'t agree on a movie just hit the "Go Fish" button. The application will return a random movie that you and your friend have both selected as a favorite. ',
