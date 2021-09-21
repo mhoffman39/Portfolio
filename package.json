@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
+    "browserstack-local": "^1.4.8",
     "gatsby": "^3.9.0",
     "gatsby-plugin-image": "^1.8.0",
     "gatsby-plugin-sass": "^4.8.0",
@@ -30,6 +31,7 @@
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.2",
     "react-tilt": "^0.1.4",
-    "sass": "^1.35.1"
+    "sass": "^1.35.1",
+    "selenium-webdriver": "^4.0.0-rc-1"
   }
 }
